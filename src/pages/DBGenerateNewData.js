@@ -7,11 +7,17 @@ import NavBarDB from "../components/NavBarDB";
 import { Initialize, useServerSide, getFullData,GenerateNewData } from '../components/logical/ServerSide';
 
 
-export default function DBGenerateNewData() { return (
-<div class="main">
-<NavBarDB />
-
-DBGenerateNewData en el json poraora
-
-</div>
-)}
+export default function DBGenerateNewData() {
+    GenerateNewData()
+    return (
+        <div class="main">
+            <div class="row">
+                <div class="col-2">
+                    <NavBarDB />
+                </div>
+                <div class="col-10">
+                    <h1>New data generated!</h1>
+                </div>
+            </div>
+        </div>
+    )}    

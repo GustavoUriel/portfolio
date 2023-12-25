@@ -13,7 +13,8 @@ export default function Home() {
 
   return (
     <div>
-<background>hola hola oal</background>
+<background></background>
+<h1>Not yet implemented</h1>
     </div>
   );
 }

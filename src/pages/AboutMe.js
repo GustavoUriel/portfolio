@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/AboutMe.css";
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { Card, Accordion, Button } from "react-bootstrap";
 
 const accordionData = [ 
