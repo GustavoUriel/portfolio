@@ -86,10 +86,9 @@ export const InitializeData = (props) => {
     };
 
     dataBase.push(element);
-    console.log(i);
-    console.log(element);
-    console.log(dataBase);
   }
+  console.log("TERMINNO");
+  console.log(dataBase);
   return dataBase;
 };
 

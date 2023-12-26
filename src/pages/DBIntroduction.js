@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { Card, Accordion, Button } from "react-bootstrap";
 import NavBarDB from "../components/NavBarDB";
 import { Initialize, useServerSide, getFullData,GenerateNewData } from '../components/logical/ServerSide';
-console.log(getFullData())
 
 export default function DBIntroduction() { 
 let tempBase=[]
